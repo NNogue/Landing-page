@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+#content{
+	background-image:url(jungle.jpg) ;
+	height: 100vh;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#content div {
+	padding:0 40px;
+	text-align:center;
+}
+
+#content h1 {
+	color:#d1f6ff;
+	font-size: 45px;
+	margin-bottom:5px;
+}
+
+#content p{
+	color:#d1f6ff;
+	font-size: 20px;
+}
+
+#content .buttons{
+	margin-top:20px;
+}
+
+#content .button{
+	font-size:20px;
+	padding:10px 20px;
+	border: #d1f6ff 1.5px solid;
+	border-radius: 10px;
+	margin-top:10px;
+	color:#d1f6ff;
+	transition-duration: 0.3s;
+}
+
+#content .button:hover{
+	background: #d1f6ff;
+	color:black;
+}
+
